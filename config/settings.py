@@ -26,8 +26,8 @@ SECRET_KEY = "django-insecure-knq#h405(^c4$3+cb=pi=*=e5%0mas^9h%*2owuiv9!u@g=$wo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ["52.78.63.199"] # 아마존 접속시 사용, 로컬시 주석
+# ALLOWED_HOSTS =[] # 로컬 접속시 주석 해제, 아마존 사용시 주석
 
 # Application definition
 
